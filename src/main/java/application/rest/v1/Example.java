@@ -21,6 +21,7 @@ public class Example {
         //return a simple list of strings
         list.add("Congratulations, your application is up and running");
         list.add("Hello !! Jenkins Pipeline !!");
+        list.add("...testing...");
         return Response.ok(list.toString()).build();
     }
 
