@@ -22,6 +22,7 @@ public class Example {
         list.add("Congratulations, your application is up and running");
         list.add("Hello !! Jenkins Pipeline !!");
         list.add("...testing...");
+	list.add("20171108");
         return Response.ok(list.toString()).build();
     }
 
