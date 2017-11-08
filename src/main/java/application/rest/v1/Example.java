@@ -19,10 +19,7 @@ public class Example {
     public Response example() {
         List<String> list = new ArrayList<>();
         //return a simple list of strings
-        list.add("Congratulations, your application is up and running");
-        list.add("Hello !! Jenkins Pipeline !!");
-        list.add("...testing...");
-	list.add("20171108");
+        list.add("Hello !!");
         return Response.ok(list.toString()).build();
     }
 
